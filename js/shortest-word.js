@@ -14,3 +14,7 @@ function findShort(s) {
 }
 
 console.log(findShort("The quick brown fox"))
+
+//function findShort(s){
+//  return Math.min.apply(null, s.split(' ').map(w => w.length));
+//}
